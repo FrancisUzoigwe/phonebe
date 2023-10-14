@@ -1,0 +1,23 @@
+{
+  "name": "phoneappbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev index.ts",
+    "build": "tsc",
+    "start": "node /index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/mongoose": "^5.11.97",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.2"
+  }
+}
